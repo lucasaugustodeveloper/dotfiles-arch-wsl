@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-yay -Sy rustup --noconfirm --needed && \
-rustup toolchain stable && \
-rustup set profile complete && \
-rustup default stable && \
-mkdir -p ~/.local/share/bash-completion/completions && \
-rustup completions bash > ~/.local/share/bash-completion/completions/rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 cargo install exa bat
