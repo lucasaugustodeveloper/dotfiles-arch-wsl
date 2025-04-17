@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-yarn global add gitmoji-cli
+npm i -g gitmoji-cli tree-sitter-cli
+
