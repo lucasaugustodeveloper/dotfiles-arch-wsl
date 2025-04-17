@@ -2,7 +2,6 @@
 
 sudo pacman -Sy --needed base-devel git --noconfirm && \
 
-bash install-yay.sh && \
 bash install-packages.sh && \
 bash install-navi.sh && \
 bash install-rust.sh && \
