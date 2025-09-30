@@ -120,6 +120,8 @@ source $HOME/.cargo/bin
 source $HOME/.cargo/env
 source $HOME/.asdf/asdf.sh
 export PATH=$HOME/.local/bin:$PATH
+export PATH=$PATH:$HOME/.local/share/mise/shims
+
 
 #export ANDROID_HOME=/opt/android-sdk
 #export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
@@ -142,3 +144,12 @@ export PATH=$HOME/.local/bin:$PATH
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+eval "$(/home/lucas/.local/bin/mise activate zsh)" # added by https://mise.run/zsh
+
+# bun completions
+[ -s "/home/lucas/.bun/_bun" ] && source "/home/lucas/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
