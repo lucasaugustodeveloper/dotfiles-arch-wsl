@@ -38,3 +38,9 @@
 
 [user]
   name = Lucas Augusto Silva
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[gpg]
+	format = ssh

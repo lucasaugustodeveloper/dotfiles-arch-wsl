@@ -153,3 +153,4 @@ eval "$(/home/lucas/.local/bin/mise activate zsh)" # added by https://mise.run/z
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export GPG_TTY=$(tty)
