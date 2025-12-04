@@ -38,9 +38,9 @@
 
 [user]
   name = Lucas Augusto Silva
+	signingkey = DD9437FB610EF80B
+	signinkey = DD9437FB610EF80B
 [commit]
 	gpgsign = true
 [tag]
 	gpgSign = true
-[gpg]
-	format = ssh
