@@ -118,7 +118,6 @@ alias cat="bat --style=\"numbers,changes,header\""
 # add source of applications
 source $HOME/.cargo/bin
 source $HOME/.cargo/env
-source $HOME/.asdf/asdf.sh
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$PATH:$HOME/.local/share/mise/shims
 
