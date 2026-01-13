@@ -3,5 +3,6 @@
     "emojiFormat": "emoji",
     "signedCommit": true,
     "scopePrompt": false,
+    "bodyPrompt": false,
     "gitmojisUrl": "https://gitmoji.dev/api/gitmojis"
 }
