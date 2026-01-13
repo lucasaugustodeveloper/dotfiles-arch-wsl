@@ -4,5 +4,4 @@ sudo pacman -Sy --needed base-devel git --noconfirm &&
   bash install-packages.sh &&
   bash install-navi.sh &&
   bash install-rust.sh &&
-  bash arch-docker.sh &&
   bash install-npm-packages.sh
